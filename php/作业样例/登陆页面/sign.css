@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  size: 16px;
+}
+input {
+  margin: 10px 0 10px 56px ;
+  width: 300px;
+  height: 35px;
+  outline: none;
+}
+.box {
+  width: 100%;
+  background: #e2e2e2;
+}
+.box .hooter {
+  height: 100px;
+  box-sizing: border-box;
+  padding: 25px 580px 25px 140px;
+}
+.box .hooter h1 {
+  width: 260px;
+  color: blue;
+}
+.box .body {
+  position: relative;
+  height: 620px;
+  background: url("images/login_interface.76e77cc7.jpg") no-repeat;
+  background-size: 100%;
+}
+.box .body .sign {
+  position: absolute;
+  box-sizing: border-box;
+  right: 170px;
+  top: 120px;
+  width: 420px;
+  height: 375px;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+.box .body .sign .h {
+  height: 70px;
+  font-size: 22px;
+  background-color: #0a5ef1;
+  line-height: 70px;
+  text-align: center;
+  color: #e2e2e2;
+  border-radius: 8px 8px 0px 0px ;
+}
+.box .body .sign .user {
+  height: 305px;
+  border-radius: 0px 0px 8px 8px ;
+  box-sizing: border-box;
+}
+.box .body .sign .user .account {
+  margin-top: 15px;
+  height: 80px;
+}
+.box .body .sign .user .password {
+  margin-top: 15px;
+  height: 80px;
+}
+.box .body .sign .user .password .p2 {
+  display: none;
+  box-sizing: border-box;
+  padding-left: 75px;
+  height: 20px;
+  color: #ff0000;
+  background: url("images/错误.png") no-repeat;
+  background-size: 25px;
+  background-position-x: 50px;
+}
+.box .body .sign .user button {
+  width: 305px;
+  height: 45px;
+  font-size: 22px;
+  background-color: #3179f5;
+  border: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 56px;
+  color: #e2e2e2;
+}
+.box .footer {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
